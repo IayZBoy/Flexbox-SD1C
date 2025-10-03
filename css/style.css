@@ -7,6 +7,13 @@
         0 0 24px rgba(255, 255, 255, 0.4);
 }
 
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -28,7 +35,7 @@ body {
     width: calc(100% - 20px);
     box-sizing: border-box;
     max-width: 30%;
-    padding: 10px;
+    padding: 20px;
 }
 
 .main_title h1 {
@@ -49,11 +56,11 @@ body {
     margin-top: 10px; 
     margin-left: 10px;
     margin-right: 10px;
-    max-width: 500px
+    max-width: 70vw
 }
 
 .grid_box {
-    flex: 1 0 200px;
+    flex: 1 0 30vh;
     background-color: transparent;
     border: 3px solid var(--standard_border_color);
     padding: 20px;
