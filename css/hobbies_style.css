@@ -53,7 +53,7 @@ body {
 }
 
 .about_box {
-    flex: 1 0 30vh;
+    flex: 1 0 35vh;
     background-color: transparent;
     border: 3px solid var(--standard_border_color);
     border-radius: 10px;
