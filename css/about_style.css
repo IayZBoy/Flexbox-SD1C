@@ -48,12 +48,12 @@ body {
     gap: 10px;
     margin: 20px 10px 40px 10px;
     width: 100%;
-    max-width: 1000px;
+    max-width: 95vw;
     box-sizing: border-box;
 }
 
 .about_box {
-    flex: 1 0 400px;
+    flex: 1 0 35vh;
     background-color: transparent;
     border: 3px solid var(--standard_border_color);
     border-radius: 10px;
